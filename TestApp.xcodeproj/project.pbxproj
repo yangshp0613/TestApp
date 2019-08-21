@@ -15,6 +15,7 @@
 		4951FC1F230D772600CFCBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4951FC1E230D772600CFCBB6 /* main.m */; };
 		4951FC29230D772600CFCBB6 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4951FC28230D772600CFCBB6 /* TestAppTests.m */; };
 		4951FC34230D772600CFCBB6 /* TestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4951FC33230D772600CFCBB6 /* TestAppUITests.m */; };
+		4951FC46230D8ADC00CFCBB6 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4951FC45230D8ADC00CFCBB6 /* HomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4951FC2F230D772600CFCBB6 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4951FC33230D772600CFCBB6 /* TestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppUITests.m; sourceTree = "<group>"; };
 		4951FC35230D772600CFCBB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4951FC44230D8ADC00CFCBB6 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		4951FC45230D8ADC00CFCBB6 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4951FC10230D772600CFCBB6 /* AppDelegate.m */,
 				4951FC12230D772600CFCBB6 /* ViewController.h */,
 				4951FC13230D772600CFCBB6 /* ViewController.m */,
+				4951FC44230D8ADC00CFCBB6 /* HomePageViewController.h */,
+				4951FC45230D8ADC00CFCBB6 /* HomePageViewController.m */,
 				4951FC15230D772600CFCBB6 /* Main.storyboard */,
 				4951FC18230D772600CFCBB6 /* Assets.xcassets */,
 				4951FC1A230D772600CFCBB6 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4951FC46230D8ADC00CFCBB6 /* HomePageViewController.m in Sources */,
 				4951FC14230D772600CFCBB6 /* ViewController.m in Sources */,
 				4951FC1F230D772600CFCBB6 /* main.m in Sources */,
 				4951FC11230D772600CFCBB6 /* AppDelegate.m in Sources */,
